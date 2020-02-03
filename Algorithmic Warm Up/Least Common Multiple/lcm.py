@@ -10,16 +10,19 @@ def lcm_naive(a, b):
 
     return multiple
 
+def gcd(a, b):
+    if b == 0:
+        return a
+    if a > b:
+        return gcd(b, a % b)
+    else:
+        return gcd(a, b % a)
 
 def lcm(a, b):
-    assert 1 <= a <= 2 * 10 ** 9 and 1 <= b <= 2 * 10 ** 9
     if a == 0 or b == 0:
         return 0
-    multiple = max(a, b)
-    while multiple % a != 0 or multiple % b != 0:
-        multiple += a - (multiple % a)
-        a, b = b, a
-    return multiple
+    gcd1 = gcd(a, b)
+    return a * b // gcd1
 
 
 
