@@ -26,10 +26,9 @@ def last_digit_of_the_sum_of_fibonacci_numbers_again(from_index, to_index):
         res.append((res[i - 2] + res[i - 1]) % 60)
     a_to, b_to = divmod(to_index, 60)
     a_from, b_from = divmod(from_index, 60)
-    return ((a_to - a_from) * sum(res) + sum(res[0:b_to + 1]) - sum(res[0:b_from + 1]))
+    return ((a_to - a_from) * sum(res) + sum(res[0:b_to + 1]) - sum(res[0:b_from])) % 10
 
 
 if __name__ == '__main__':
     input_from, input_to = map(int, input().split())
     print(last_digit_of_the_sum_of_fibonacci_numbers_again(input_from, input_to))
-# 0 1 1 2 3 5
