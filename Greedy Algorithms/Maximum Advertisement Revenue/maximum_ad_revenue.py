@@ -23,7 +23,12 @@ def max_dot_product(first_sequence, second_sequence):
     assert all(0 <= f <= 10 ** 5 for f in first_sequence)
     assert all(0 <= s <= 10 ** 5 for s in second_sequence)
 
-    type here
+    first_sequence.sort(reverse=True)
+    second_sequence.sort(reverse=True)
+    res = 0
+    for p, c in zip(first_sequence, second_sequence):
+        res += p * c
+    return  res
 
 
 if __name__ == '__main__':
