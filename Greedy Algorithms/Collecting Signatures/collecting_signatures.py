@@ -18,12 +18,10 @@ def compute_optimal_points(segments):
     while current_dot < n:
         last_dot = current_dot
         current_dot += 1
-        dots_list.append(segments[current_dot][1])
         while (segments[current_dot][0] <= segments[last_dot][1]) and (current_dot < n):
             current_dot += 1
-        if current_dot == n and segments[n][0] <= segments[n - 1][1] and segments[n - 1][1] in dots_list:
-            break
-
+        if segments[current_dot][0] > segments[last_dot][1]:
+            dots_list.append(segments[current_dot][1])
 
     return dots_list
 

@@ -3,15 +3,7 @@ import math
 from itertools import permutations
 
 
-def largest_number_naive(numbers):
-    numbers = list(map(str, numbers))
 
-    largest = 0
-
-    for permutation in permutations(numbers):
-        largest = max(largest, int("".join(permutation)))
-
-    return largest
 
 
 def largest_number(numbers):
@@ -25,7 +17,11 @@ def largest_number(numbers):
                 max_ind = i
         salary.append(max_number)
         numbers.pop(max_ind)
-    return salary
+    res = ''
+    for i in salary:
+        res += str(i)
+
+    return int(res)
 
 if __name__ == '__main__':
     n = int(input())

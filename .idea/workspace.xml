@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Collecting Signatures/collecting_signatures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Collecting Signatures/collecting_signatures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Collecting Signatures/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Collecting Signatures/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Maximum Advertisement Revenue/maximum_ad_revenue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Maximum Advertisement Revenue/maximum_ad_revenue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Maximum Advertisement Revenue/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Maximum Advertisement Revenue/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Maximum Number of Prizes/maximum_number_of_prizes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Maximum Number of Prizes/maximum_number_of_prizes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Maximum Number of Prizes/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Maximum Number of Prizes/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Greedy Algorithms/Maximum Salary/maximum_salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy Algorithms/Maximum Salary/maximum_salary.py" afterDir="false" />
@@ -32,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.maximum_salary">
+  <component name="RunManager" selected="Python.maximum_number_of_prizes">
     <configuration name="collecting_signatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithmic Toolbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,9 +177,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.maximum_salary" />
-        <item itemvalue="Python.collecting_signatures" />
         <item itemvalue="Python.maximum_number_of_prizes" />
+        <item itemvalue="Python.collecting_signatures" />
+        <item itemvalue="Python.maximum_salary" />
         <item itemvalue="Python.maximum_ad_revenue" />
         <item itemvalue="Python.maximum_loot" />
       </list>
@@ -221,22 +219,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" width="1089" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580708403648" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1581851613572">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1581921995565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581851613572" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1581851613572">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581921995565" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1581921995565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581851613572" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1581851613571">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581921995565" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1581921995565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581851613571" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1581851613572">
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581921995565" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1581921995565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581851613572" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581921995565" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581834790464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

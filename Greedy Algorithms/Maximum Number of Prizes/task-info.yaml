@@ -6,8 +6,8 @@ files:
 - name: maximum_number_of_prizes.py
   visible: true
   placeholders:
-  - offset: 108
-    length: 165
+  - offset: 117
+    length: 189
     placeholder_text: type here
     initial_state:
       length: 9
